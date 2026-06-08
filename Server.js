@@ -10,7 +10,7 @@ const app = express();
 connectDB();
 
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: "https://job-portal-frontend-xi-five.vercel.app/",
 }));
 
 app.use(express.json());
